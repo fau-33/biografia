@@ -13,14 +13,16 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.flavio35.biografia"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.flavio35.biografia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +31,12 @@
       "eas": {
         "projectId": "4dd2f6a9-1de8-40d0-b8a8-e0ea5ec50b6d"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4dd2f6a9-1de8-40d0-b8a8-e0ea5ec50b6d"
     }
   }
 }
